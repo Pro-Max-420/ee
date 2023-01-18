@@ -13,13 +13,13 @@ def Run():
             xoss("\033[0;92m Congratulations ! Your Device Support this Tools")
             xoss('\033[0;93m JOIN MY SCRIPT GIFT GROUP')
             os.system('xdg-open https://facebook.com/groups/554714119911648/')
-            from HYPER import refat
+            from R4NDOM import refat
             refat()
         elif bit == '32bit':
             xoss("\033[0;92m Congratulations Your Device Support This Tools")
             xoss('\033[0;93m JOIN MY SCRIPT GIFT GROUP')
             os.system('xdg-open https://facebook.com/groups/554714119911648/')
-            from HYPER import refat
+            from R4NDOM import refat
             refat()
         else:
             exit('\033[1;31m Connection & Network Error')
