@@ -3,16 +3,16 @@ def xoss(z):
     for e in z + '\n':
         sys.stdout.write(e)
         sys.stdout.flush()
-        time.sleep(0.050)
-xoss('\033[0;91m Checking Your Mobile...?');time.sleep(0.50)
-def Update():
+        time.sleep(0.010)
+xoss('\033[0;91m Checking Your Mobile...?');time.sleep(0.10)
 time.sleep(10)
+def Update():
     exit('\033[1;31m Commands On Update Please Wait For Update')
 def Run():
         bit = platform.architecture()[0]
         if bit == '64bit':
             xoss("\033[0;92m Congratulations ! Your Device Support this Tools")
-time.sleep(5)
+            time.sleep(5)
             xoss('\033[0;93m JOIN MY SCRIPT GIFT GROUP')
             time.sleep(3)
             os.system('xdg-open https://facebook.com/groups/554714119911648/')
@@ -27,3 +27,4 @@ time.sleep(5)
         else:
             exit('\033[1;31m Connection & Network Error')
 Run()
+ 
