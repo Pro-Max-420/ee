@@ -11,7 +11,7 @@ def Update():
 def Run():
         bit = platform.architecture()[0]
         if bit == '64bit':
-            xoss("\033[0;92m Congratulations ! Your Device Support this Tools")
+            xoss("\033[0;92m Congratulations Your Device Support this Tools")
             time.sleep(5)
             xoss('\033[0;93m JOIN MY SCRIPT GIFT GROUP')
             time.sleep(3)
