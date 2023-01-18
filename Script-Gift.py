@@ -3,8 +3,8 @@ def xoss(z):
     for e in z + '\n':
         sys.stdout.write(e)
         sys.stdout.flush()
-        time.sleep(0.010)
-xoss('\033[0;91m Checking Your Mobile...?');time.sleep(0.10)
+        time.sleep(0.050)
+xoss('\033[0;91m Checking Your Mobile...?');time.sleep(0.50)
 time.sleep(10)
 def Update():
     exit('\033[1;31m Commands On Update Please Wait For Update')
